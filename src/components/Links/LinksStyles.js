@@ -20,7 +20,7 @@ export const ButtonWrapper = styled.button`
     width: 100%;
     text-align: center;
     margin-left: -1.5rem;
-    font-size: clamp(0.2vw + 0.8rem, 0.2vw + 0.3rem, 0.2vw + 0.2rem);
+    font-size: clamp(0.5rem, 0.8rem, 1rem);
   }
 
   svg {

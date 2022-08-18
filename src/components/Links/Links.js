@@ -8,7 +8,6 @@ import { ReactComponent as EmailSVG } from "../../media/email.svg";
 import ReactTooltip from "react-tooltip";
 
 const Links = () => {
-  setTimeout(ReactTooltip.hide, 500);
   return (
     <>
       <a href="https://github.com/gxlpes" target="blank" style={{ textDecoration: "none" }}>
@@ -32,20 +31,20 @@ const Links = () => {
         </ButtonWrapper>
       </a>
 
-      <a href data-tip="Copied!" data-event="click" data-event-off="mouseout" style={{ textDecoration: "none" }}>
+      <p data-tip="Copied!" data-event="click" data-event-off="mouseout" style={{ textDecoration: "none" }}>
         <ButtonWrapper
+          onClick={() => {
+            navigator.clipboard.writeText("haha");
+          }}
           data-tip="Copied!"
           data-event="click"
           data-event-off="mouseout"
-          onClick={() => {
-            navigator.clipboard.writeText("guilhermxlopes@gmail.com");
-          }}
         >
           <EmailSVG />
           <p>Email</p>
           <ReactTooltip />
         </ButtonWrapper>
-      </a>
+      </p>
     </>
   );
 };
