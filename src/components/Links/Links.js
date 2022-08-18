@@ -32,19 +32,21 @@ const Links = () => {
         </ButtonWrapper>
       </a>
 
-      <ButtonWrapper
-        onClick={() => {
-          navigator.clipboard.writeText("guilhermxlopes@gmail.com");
-        }}
-      >
-        <>
-          <EmailSVG />
-          <p data-tip="Copied!" data-event="click" data-event-off="mouseout" style={{ textDecoration: "none" }}>
-            Email
-          </p>
-          <ReactTooltip />
-        </>
-      </ButtonWrapper>
+      <a href="guilhermxlopes@gmail.com" style={{ textDecoration: "none" }}>
+        <ButtonWrapper
+          onClick={() => {
+            navigator.clipboard.writeText("guilhermxlopes@gmail.com");
+          }}
+        >
+          <>
+            <EmailSVG />
+            <p data-tip="Copied!" data-event="click" data-event-off="mouseout" style={{ textDecoration: "none" }}>
+              Email
+            </p>
+            <ReactTooltip />
+          </>
+        </ButtonWrapper>
+      </a>
     </>
   );
 };
