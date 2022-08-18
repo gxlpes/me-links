@@ -18,13 +18,14 @@ export const ProfileText = styled.div`
     padding: 0;
     margin: 0;
     margin-top: -1rem;
+    margin-bottom: 0.2rem;
     font-size: clamp(0.2vw + 0.5rem, 0.2vw + 1.8rem, 1.8rem);
   }
 
   p {
     padding: 0;
     margin: 0;
-    margin-bottom: -1rem;
+    margin-bottom: -0.5rem;
     font-size: clamp(0.2vw + 0.5rem, 0.2vw + 1.2rem, 1.2rem);
   }
 `;
