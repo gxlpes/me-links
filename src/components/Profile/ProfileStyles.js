@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Img = styled.img`
-  width: 15rem;
+  width: 12rem;
   height: auto;
   border-radius: 5px;
   margin: 0;
