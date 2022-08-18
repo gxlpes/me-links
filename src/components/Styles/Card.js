@@ -13,4 +13,16 @@ export const Card = styled.div`
   gap: 2rem;
   margin-inline: auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  animation: appear 0.4s ease-in-out;
+
+  @keyframes appear {
+    from {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 `;
