@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { ReactDOM } from "react";
 import { ButtonWrapper } from "./LinksStyles";
 import { ReactComponent as GitHubSVG } from "../../media/github.svg";
 import { ReactComponent as LinkedInSVG } from "../../media/linkedin.svg";
@@ -32,20 +32,19 @@ const Links = () => {
         </ButtonWrapper>
       </a>
 
-      <p data-tip="Copied!" data-event="click" data-event-off="mouseout" style={{ textDecoration: "none" }}>
-        <ButtonWrapper
-          data-tip="Copied!"
-          data-event="click"
-          data-event-off="mouseout"
-          onClick={() => {
-            navigator.clipboard.writeText("haha");
-          }}
-        >
+      <ButtonWrapper
+        onClick={() => {
+          navigator.clipboard.writeText("guilhermxlopes@gmail.com");
+        }}
+      >
+        <>
           <EmailSVG />
-          <p>Email</p>
+          <p data-tip="Copied!" data-event="click" data-event-off="mouseout" style={{ textDecoration: "none" }}>
+            Email
+          </p>
           <ReactTooltip />
-        </ButtonWrapper>
-      </p>
+        </>
+      </ButtonWrapper>
     </>
   );
 };
