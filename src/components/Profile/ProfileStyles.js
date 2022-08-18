@@ -7,6 +7,28 @@ export const Img = styled.img`
   margin: 0;
 `;
 
+export const ProfileText = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  color: #3f3f3f;
+
+  h1 {
+    padding: 0;
+    margin: 0;
+    margin-top: -1rem;
+    font-size: clamp(0.2vw + 0.5rem, 0.2vw + 1.8rem, 1.8rem);
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: -1rem;
+    font-size: clamp(0.2vw + 0.5rem, 0.2vw + 1.2rem, 1.2rem);
+  }
+`;
+
 export const ImgWrapper = styled.div`
   width: min-content;
   padding: 0.5rem;
