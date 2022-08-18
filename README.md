@@ -1,4 +1,4 @@
-# Links about me
+# Links About Me
 
 <b>Live demo: https://main--glistening-quokka-c9fb02.netlify.app/ </b>
 
