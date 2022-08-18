@@ -1,9 +1,13 @@
 import React from "react";
 import Image from "../../media/profile.png";
-import { Img } from "./ProfileStyles";
+import { Img, ImgWrapper } from "./ProfileStyles";
 
 const Profile = () => {
-  return <Img src={Image} alt="profile" />;
+  return (
+    <ImgWrapper>
+      <Img src={Image} alt="profile" />
+    </ImgWrapper>
+  );
 };
 
 export default Profile;
