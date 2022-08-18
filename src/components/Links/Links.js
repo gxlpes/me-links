@@ -32,7 +32,7 @@ const Links = () => {
         </ButtonWrapper>
       </a>
 
-      <a href="#guilhermxlopes@gmail.com" style={{ textDecoration: "none" }}>
+      <a href="kkkguilhermxlopes@gmail.com" style={{ textDecoration: "none" }}>
         <ButtonWrapper
           onClick={() => {
             navigator.clipboard.writeText("guilhermxlopes@gmail.com");
