@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { ButtonWrapper } from "./LinksStyles";
 import { ReactComponent as GitHubSVG } from "../../media/github.svg";
 import { ReactComponent as LinkedInSVG } from "../../media/linkedin.svg";
@@ -33,12 +34,12 @@ const Links = () => {
 
       <p data-tip="Copied!" data-event="click" data-event-off="mouseout" style={{ textDecoration: "none" }}>
         <ButtonWrapper
-          onClick={() => {
-            navigator.clipboard.writeText("haha");
-          }}
           data-tip="Copied!"
           data-event="click"
           data-event-off="mouseout"
+          onClick={() => {
+            navigator.clipboard.writeText("haha");
+          }}
         >
           <EmailSVG />
           <p>Email</p>
