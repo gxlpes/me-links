@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ButtonWrapper = styled.button`
-  width: 20rem;
+  width: 15rem;
   height: 4rem;
   padding: 1rem 2rem;
   border: none;
