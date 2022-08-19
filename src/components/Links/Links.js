@@ -1,14 +1,9 @@
 import React from "react";
-import { ReactDOM } from "react";
-import { Button, ButtonWrapper } from "./LinksStyles";
 import GitHubSVG from "../../media/github.svg";
 import LinkedInSVG from "../../media/linkedin.svg";
 import WebsiteSVG from "../../media/website.svg";
 import EmailSVG from "../../media/email.svg";
-import { StyledButton } from "./ButtonCardStyles";
 import ButtonCard from "./ButtonCard";
-
-import ReactTooltip from "react-tooltip";
 
 const Links = () => {
   return (
@@ -17,9 +12,9 @@ const Links = () => {
 
       <ButtonCard link={"https://www.linkedin.com/in/gxlpes/"} name={"LinkedIn"} svg={LinkedInSVG} />
 
-      <ButtonCard link={"https://gxlpes.is-a.dev/"} name={"Portfolio"} svg={WebsiteSVG} />
+      <ButtonCard link={"https://gxlpes.netlify.app/"} name={"Portfolio"} svg={WebsiteSVG} />
 
-      <ButtonCard link={"mailto: guilhermxlopes@gmail.com"} name={"Email"} svg={EmailSVG} />
+      <ButtonCard link={"guilhermxlopes@gmail.com"} name={"Email"} svg={EmailSVG} />
     </>
   );
 };

@@ -6,8 +6,8 @@ const ButtonCard = ({ link, name, svg }) => {
   return (
     <>
       <a href={link} target="_blank">
-        <StyledButton href={link} target="blank">
-          <img src={svg} />
+        <StyledButton href={link} target="_blank">
+          <img src={svg} alt="logo" />
           <p>{name}</p>
         </StyledButton>
       </a>
