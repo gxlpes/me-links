@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
-export const ButtonWrapper = styled.div`
-  width: 15rem;
-`;
-
-export const Button = styled.button`
+export const StyledButton = styled.button`
   width: 15rem;
   height: 3rem;
   padding: 1rem 2rem;
@@ -27,9 +23,8 @@ export const Button = styled.button`
     font-size: clamp(0.5rem, 0.8rem, 1rem);
   }
 
-  svg {
+  img {
     width: 1.5rem;
-    fill: white;
   }
 
   :hover {
