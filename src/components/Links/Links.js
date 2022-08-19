@@ -14,7 +14,7 @@ const Links = () => {
 
       <ButtonCard link={"https://gxlpes.netlify.app/"} name={"Portfolio"} svg={WebsiteSVG} />
 
-      <ButtonCard link={"guilhermxlopes@gmail.com"} name={"Email"} svg={EmailSVG} />
+      <ButtonCard link={"#guilhermxlopes@gmail.com"} name={"Email"} svg={EmailSVG} />
     </>
   );
 };

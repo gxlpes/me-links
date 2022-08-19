@@ -15,6 +15,7 @@ export const ProfileText = styled.div`
   color: #3f3f3f;
 
   h1 {
+    font-family: inherit;
     padding: 0;
     margin: 0;
     margin-top: -1rem;
@@ -23,6 +24,7 @@ export const ProfileText = styled.div`
   }
 
   p {
+    font-family: inherit;
     padding: 0;
     margin: 0;
     margin-bottom: -0.5rem;
